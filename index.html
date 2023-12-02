@@ -1,0 +1,93 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h2>Weather Application for US </h2>
+      <h3>This a landing page for the weather app for USA to describ how it works </h3>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" class="your-active-class">
+      <div class="landing__container">
+        <h2>Who are we</h2>
+        <p>Mohamed Elkharashy</p>
+        <p>Mahmoud Elbanna</p>
+        <p>Khadija Mohamed</p>
+        
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <h2>How the weather App works</h2>
+        <p>this a weather app project that helps you to get to know to the temperatures in the states within USA</p>
+
+         <h4>to make this app working on your computer</h4>
+          <p>1 - you have to install node.js on your computer</p>
+          <p>2 - after downloading the project on your pc the open the project by any code editor</p> 
+          <p>3 - you have to navigate to server.js file </p> 
+          <p>4 - open your terminal where you are in the server.js file</p>
+          
+          <h5>installation requirements</h5>
+          <p>1 - npm install express</p> 
+          <p>2 - npm install cors</p> 
+          <p>3 - npm install body-parser</p>
+          
+          <h5>How to run the weather app</h5>
+          <p>1 - you need to type in your terminal when you are in the server.js file.
+          2 - node server.js.
+          3 - if you installed the requirements correctly then the localhost url or server will appear to you in your terminal.
+           4 - click on it to open the project at any browser you like it.</p>
+          
+          <p>How the weather app works</p>
+          <p>1 - type the zip code or the postal code of any state in usa 2 - type your feeling about this day 3 - click on generate botton</p>
+
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>The feature of this App</h2>
+        <p>the weather application for usa is designed to make the experience of the visitor or the client whom intend to get to know the weather condition in the states in the usa is easy</p>
+        <p>All the client or the visitor needs is to put the desired postal code of the state that he wanted to know its temperature</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4">
+      <div class="landing__container">
+        <h2>why did we choose to create the weather App</h2>
+      <p>the weather application for usa is designed to make the experience of the visitor or the client whom intend to get to know the weather condition in the states in the usa is easy</p>
+      
+    
+       
+      </div>
+    </section>
+    
+  </main>
+  <footer class="page__footer">
+    <p>&copy by Mohamed Elkharashy</p>
+  </footer>
+   
+<script src="js/app.js"> </script>
+
+</body>
+</html>
+
