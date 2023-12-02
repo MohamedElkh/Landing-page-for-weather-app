@@ -1,4 +1,4 @@
-<a href="https://mohamedelkh.github.io/Landing-page-for-weather-app/">Landing page for weather Appm</a>
+<a href="https://mohamedelkh.github.io/Landing-page-for-weather-app/" target="_blank">Landing Page for weather App</a>
 
 # the languages that used is 
 
